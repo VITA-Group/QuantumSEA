@@ -14,7 +14,7 @@ python -u train.py \
 --weight_decay 1e-4 \
 --min_lr 0.03 \
 --warmup_epochs 0 \
---qc_device ibm_lagos \
+--qc_device ibmq_quito \
 --n_shots 8192 \
 --death_mode saliency \
 --growth_mode gradient_prob \
