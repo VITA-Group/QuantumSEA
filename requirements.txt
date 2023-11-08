@@ -1,0 +1,16 @@
+numpy>=1.19.2
+torchvision>=0.9.0.dev20210130
+tqdm>=4.56.0
+setuptools>=52.0.0
+torch>=1.8.0
+torchquantum>=0.1
+torchpack>=0.3.0
+qiskit>=0.24.0
+matplotlib>=3.3.2
+
+pathos>=0.2.7
+tensorflow>=2.4.1
+
+scipy>=1.5.2
+
+pyscf>=2.0.1

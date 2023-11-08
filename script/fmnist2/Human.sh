@@ -1,0 +1,25 @@
+python -u train.py \
+--dataset fmnist \
+--num_class 2 \
+--n_test_images 300 \
+--n_train_images 500 \
+--n_val_images 300 \
+--arch RXYZ_Model_DST \
+--n_wires 4 \
+--n_blocks 8 \
+--save_dir FMNIST2_Human \
+--epochs 50 \
+--batch_size 500 \
+--lr 0.3 \
+--weight_decay 1e-4 \
+--min_lr 0.03 \
+--warmup_epochs 0 \
+--qc_device ibm_lagos \
+--n_shots 8192 \
+--death_mode saliency \
+--growth_mode gradient_prob \
+--density 0.5 \
+--grad_beta 0.9 \
+--fix_arch \
+--seed 37 \
+--init_mode dense_gate_50
